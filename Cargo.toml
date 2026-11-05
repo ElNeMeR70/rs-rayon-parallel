@@ -1,0 +1,10 @@
+[package]
+name = "rs-rayon-parallel"
+version = "1.0.0"
+edition = "2021"
+description = "rayon-compatible parallel iterator with work-stealing"
+license = "MIT"
+
+[[bin]]
+name = "rs_rayon_parallel"
+path = "main.rs"
